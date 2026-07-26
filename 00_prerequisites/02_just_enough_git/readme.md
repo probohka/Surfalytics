@@ -29,8 +29,14 @@ git switch -c <branch-name>
 
 ### restore 
 
+To discard all uncommitted changes in your current directory and its subdirectories, use the dot (.) shortcut:
 ```bash
-git restore branchName
+git restore .
+```
+
+If you have already staged files and want to wipe everything out completely, you have to run:
+```bash
+git restore --staged .
 ```
 
 ### add
