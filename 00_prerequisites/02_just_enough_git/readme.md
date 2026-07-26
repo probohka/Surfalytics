@@ -33,6 +33,23 @@ git switch -c <branch-name>
 git restore branchName
 ```
 
+### add
+Tells Git to gather and stage all your local changes so they are ready to be included in your next commit. Add file contents to the index.
+
+Add all files:
+```
+git add .
+```
+
+or certain file
+```
+git add fileName
+```
+
+
+
+
+
 
 python3 -m pip install pre-commit
 
