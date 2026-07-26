@@ -13,11 +13,26 @@ Move from your current branch to an existing branch to work on different code.
 ```bash
 git checkout feature-login
 ```
+The git checkout command is primarily used to switch between different branches or restore working tree files
 
-### git switch andysalovfiles
+
+### switch 
+Just switch branch
 ```bash
 git switch branchName
 ```
+
+**Create and switch**: Create a new branch and immediately move into it.
+```
+git switch -c <branch-name>
+```
+
+### restore 
+
+```bash
+git restore branchName
+```
+
 
 python3 -m pip install pre-commit
 
