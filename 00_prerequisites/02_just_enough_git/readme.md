@@ -1,16 +1,23 @@
 ### git status
 To check if the current local version is equal with current on the git
 
-### checkout
-create new branch with the your name
-```
-git checkout -b NAME
-```
+### checkout (this is the old version! look at switch and restore)
+Create new branch with the your name, and used to switch between different branches or restore working tree files.
 
+Create a brand new branch and immediately switch to it using the -b flag.
+```bash
+git checkout -b branchName
+```
+Move from your current branch to an existing branch to work on different code.
+
+```bash
+git checkout feature-login
+```
 
 ### git switch andysalovfiles
-
-
+```bash
+git switch branchName
+```
 
 python3 -m pip install pre-commit
 
