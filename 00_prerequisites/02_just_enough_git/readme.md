@@ -1,5 +1,15 @@
-# git status
+### git status
 To check if the current local version is equal with current on the git
+
+### checkout
+create new branch with the your name
+```
+git checkout -b NAME
+```
+
+
+### git switch andysalovfiles
+
 
 
 python3 -m pip install pre-commit
