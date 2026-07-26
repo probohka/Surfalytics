@@ -39,8 +39,12 @@ If you have already staged files and want to wipe everything out completely, you
 git restore --staged .
 ```
 
-### add
-Tells Git to gather and stage all your local changes so they are ready to be included in your next commit. Add file contents to the index.
+### add - Stage changes
+Tells Git to gather and stage all your local changes so they are ready to be included in your next commit. 
+
+Tell Git which modifications you want to package up (the dot flags all changes in your folder).
+
+Add file contents to the index.
 
 Add all files:
 ```
