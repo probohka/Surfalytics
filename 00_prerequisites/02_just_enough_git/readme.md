@@ -1,3 +1,7 @@
+# git status
+To check if the current local version is equal with current on the git
+
+
 python3 -m pip install pre-commit
 
 pre-commit --version
