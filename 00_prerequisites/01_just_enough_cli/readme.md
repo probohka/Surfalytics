@@ -124,6 +124,9 @@ Standard input and output are often abbreviated as `stdin` and `stdout`. There i
 ### 'code .'
 Run the new envorinment in VS for current folder
 
+```bash
+code .
+```
 ### cat
 
 The `cat` program is one of the easiest in Unix to understand; it simply outputs the contents of one or more files or another source of input.
