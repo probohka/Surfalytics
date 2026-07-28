@@ -49,9 +49,13 @@ git switch branchName
 ```
 
 **Create and switch**: Create a new branch and immediately move into it.
+
 ```
 git switch -c <branch-name>
 ```
+
+**IMPORTANT**
+Always — you see, always! — before starting work, a programmer should create their own new branch! It doesn't matter what repo they use, whether it’s a shared repository workflow or a forking workflow. Before you need create a Branch!
 
 ### restore 
 
