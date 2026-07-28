@@ -67,6 +67,7 @@ git restore --staged .
 
 
 ## Send changes to the server
+Save changes if not! Because GIT can add and push changes that only saved on the disk (ctrl+s on EDI or autosave). 
 
 ### 1. add - Stage changes
 Tells Git to gather and stage all your local changes so they are ready to be included in your next commit. 
