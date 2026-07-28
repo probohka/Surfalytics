@@ -107,3 +107,13 @@ send changes to the server
 git push
 ```
 
+
+## Workflow summary
+1. Clone Prod code git clone
+2. Create dev branch git checkout -b branch-name
+3. do the code changes
+4. check what we have modified git status .
+5. Index modified files git add .
+6. Commit these files git commit -m "Message"
+7. Push to remote: git push
+8. Create Pull Request for Code review
