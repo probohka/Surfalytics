@@ -1,8 +1,8 @@
-### status
+## status
 To check if the current local version is equal with current on the git
 
 
-### pull
+## pull
 Download the newest code from your remote server (like GitHub):
 ~~~
 git pull
@@ -11,7 +11,7 @@ The git pull command is actually a two-in-one shortcut. It automatically runs a 
 git pull = git fetch (download data) + git merge (force it into your local working files)
 
 
-### fetch
+## fetch
 You use fetch command and see what your teammates worked on before deciding to mix it into your local project.
 
 The git fetch command downloads the latest history, branches, and tags from your remote repository (like GitHub) to your local machine, without changing any of your local files.
@@ -21,13 +21,13 @@ git fetch
 ```
 
 
-### merge
+## merge
 Run merge for find differences in files
 ```
 git merge
 ```
 
-### checkout (this is the old version! look at switch and restore)
+## checkout (this is the old version! look at switch and restore)
 Create new branch with the your name, and used to switch between different branches or restore working tree files.
 
 Create a brand new branch and immediately switch to it using the -b flag.
@@ -42,7 +42,7 @@ git checkout feature-login
 The git checkout command is primarily used to switch between different branches or restore working tree files
 
 
-### switch 
+## switch 
 Just switch branch
 ```bash
 git switch branchName
