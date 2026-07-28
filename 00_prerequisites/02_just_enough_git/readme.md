@@ -65,7 +65,10 @@ If you have already staged files and want to wipe everything out completely, you
 git restore --staged .
 ```
 
-### add - Stage changes
+
+## Send changes to the server
+
+### 1. add - Stage changes
 Tells Git to gather and stage all your local changes so they are ready to be included in your next commit. 
 
 Tell Git which modifications you want to package up (the dot flags all changes in your folder).
@@ -81,67 +84,21 @@ or certain file
 ```
 git add fileName
 ```
+### 2. commit
+Fill in comments
 
+### 3. pull
+Get latest version of main branch.
+See at pull command
 
-
-
-
-
-python3 -m pip install pre-commit
-
-pre-commit --version
-
-pre-commit 3.5.0
-
-
- pre-commit install
-
-pre-commit installed at .git/hooks/pre-commit
-
-```
-repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.4.0  # Use the latest version
-    hooks:
-    -   id: trailing-whitespace
-    -   id: end-of-file-fixer
-    -   id: check-yaml
+```bash
+git pull origin main
 ```
 
-Instal YAML
-pre-commit install
+### 4. push
+send changes to the server
 
-Test:
-pre-commit run --all-files
-
-
-
-
-mkdir -p .github/workflows
-
-
-touch .github/workflows/pre_commit.yml
-
-```
-name: Pre-Commit
-
-on: [push, pull_request]
-
-jobs:
-  pre-commit:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-    - name: Install pre-commit
-      run: pip install pre-commit
-    - name: Run pre-commit on all files
-      run: pre-commit run --all-files
-```
-
-
-git add .github/workflows/pre_commit.yml
-git commit -m "Add GitHub Actions workflow for pre-commit"
+```bash
 git push
+```
+
