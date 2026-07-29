@@ -122,3 +122,8 @@ Creating a new branch is a best practice. It is usually helpful for:
 6. Commit these files git commit -m "Message"
 7. Push to remote: git push
 8. Create Pull Request for Code review
+
+
+## Add pre-commit hooks
+Pre-commit hooks it's a small checks based on template that can automatical check all changes before commit them.
+All hooks (like a patterns) placed on "pre-commit-config.yaml" file
