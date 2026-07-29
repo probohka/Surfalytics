@@ -110,7 +110,12 @@ git push
 
 ## Workflow summary
 1. Clone Prod code git clone
-2. Create dev branch git checkout -b branch-name
+2. Create dev branch git checkout -b branch-name.
+Creating a new branch is a best practice. It is usually helpful for:
+- Handling different tasks in one repository. For example, using one branch for bug fixes and another for enhancement.
+- Sharing your branch remotely. This allows you to get help from colleagues if needed.
+- Backing up your work. Saving your branch on a remote server prevents data loss if your local machine fails.
+
 3. do the code changes
 4. check what we have modified git status .
 5. Index modified files git add .
