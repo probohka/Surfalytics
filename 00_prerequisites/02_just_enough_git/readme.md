@@ -42,7 +42,7 @@ git checkout feature-login
 The git checkout command is primarily used to switch between different branches or restore working tree files
 
 
-## switch 
+## switch
 Just switch branch
 ```bash
 git switch branchName
@@ -57,7 +57,7 @@ git switch -c <branch-name>
 **IMPORTANT**
 Always — you see, always! — before starting work, a programmer should create their own new branch! It doesn't matter what repo they use, whether it’s a shared repository workflow or a forking workflow. Before you need create a Branch!
 
-### restore 
+### restore
 
 To discard all uncommitted changes in your current directory and its subdirectories, use the dot (.) shortcut:
 ```bash
@@ -71,10 +71,10 @@ git restore --staged .
 
 
 ## Send changes to the server
-Save changes if not! Because GIT can add and push changes that only saved on the disk (ctrl+s on EDI or autosave). 
+Save changes if not! Because GIT can add and push changes that only saved on the disk (ctrl+s on EDI or autosave).
 
 ### 1. add - Stage changes
-Tells Git to gather and stage all your local changes so they are ready to be included in your next commit. 
+Tells Git to gather and stage all your local changes so they are ready to be included in your next commit.
 
 Tell Git which modifications you want to package up (the dot flags all changes in your folder).
 
